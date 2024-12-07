@@ -8,8 +8,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Solution Links
 
-- [GitHub Pages](https://github.com/masum-hosen/QR-code-component)
-- [Netlify](https://magical-raindrop-23a1e8.netlify.app/)
+- [GitHub Pages](https://github.com/masum-hosen/Product-preview-card-component-solution)
+- [Netlify](https://superb-baklava-219578.netlify.app/)
 
 ## My process
 
