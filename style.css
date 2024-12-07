@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card-container {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+  gap: 24px;
+}
+.card-image {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-image img {
+  width: 100%;
+  height: auto !important;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.product-category {
+  font-size: 0.7rem;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  /* padding-top: 1.1rem; */
+}
+
+.product-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-description {
+  font-size: 0.875rem;
+  color: hsl(228, 12%, 48%);
+  margin: 10px 0;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.current-price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #3a9a5d;
+}
+
+.original-price {
+  font-size: 0.875rem;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.add-to-cart {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #3a9a5d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover,
+.add-to-cart:focus {
+  background-color: hsl(164, 21%, 14%);
+  outline: none;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .card-container {
+    height: auto;
+  }
+  .card {
+    height: auto;
+    flex-direction: column;
+  }
+  .card-image img {
+    border-radius: 10px 0px 0px 0px;
+  }
+
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+  }
+}
